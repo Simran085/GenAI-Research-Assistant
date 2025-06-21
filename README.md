@@ -1,8 +1,7 @@
 # Smart Assistant for Research Summarization
 An AI-powered research document assistant (PDF/TXT) with:
-
- -**Auto summary** (≤150 words)
- -**Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
+  -**-Auto summary** (≤150 words)
+ -**-Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
  -**Challenge Me** (auto-generated comprehension questions with feedback)
  -**Attractive, user-friendly Streamlit UI**
  -Powered by **Groq’s Llama 3** for blazing fast, accurate answers.

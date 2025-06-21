@@ -7,7 +7,7 @@ An AI-powered research document assistant (PDF/TXT) with:
  -**Attractive, user-friendly Streamlit UI**
  -Powered by **Groq’s Llama 3** for blazing fast, accurate answers.
 
-🚀 **Features**
+## 🚀 **Features**
 -Upload research reports or papers in PDF or TXT.
 - Get a concise, document-grounded summary instantly.
 - Toggle between two modes:
@@ -16,25 +16,25 @@ An AI-powered research document assistant (PDF/TXT) with:
 - All answers and feedback are cited to your uploaded content, no hallucination.
 - Chat history appears in the sidebar for context (no clutter).
 
-🛠️ **Setup Instructions**
+## 🛠️ **Setup Instructions**
 1. Clone the Repo and Prepare the Environment
-   git clone https://github.com/Simran085/GenAI-Research-Assistant
-   cd <your-project-folder>
-   python -m venv venv
+   -git clone https://github.com/Simran085/GenAI-Research-Assistant
+   -cd <your-project-folder>
+   -python -m venv venv
    source venv/bin/activate  # (venv\Scripts\activate on Windows)
 2. Install Required Packages
-   pip install -r requirements.txt
+   -pip install -r requirements.txt
 3. Get a Groq API Key
-   Sign up (free) at https://groq.com/
-   Go to the dashboard → API Keys → “Create API Key”
-   Copy your key (gsk_...) 
+   -Sign up (free) at https://groq.com/
+   -Go to the dashboard → API Keys → “Create API Key”
+   -Copy your key (gsk_...) 
 4. Create a .env File
    In the project root:
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
 5. Run the App
    streamlit run app.py
    
-🖥️ # **App Architecture & Reasoning Flow**
+## 🖥️**App Architecture & Reasoning Flow**
 **1. Document Ingestion**
 -User uploads a PDF/TXT file.
 -Text is extracted, cleaned, and split into overlapping “chunks” for retrieval.
@@ -62,7 +62,8 @@ An AI-powered research document assistant (PDF/TXT) with:
 -All major interactions and chat history are cleanly separated.
 -Supporting text is only shown on demand; no clutter.
 
-🤝 **License & Credits**
+
+## 🤝 **License & Credits**
 -Built with ❤️ Streamlit, Groq, LangChain, FAISS, and SentenceTransformers.
 -For research and educational use.
 

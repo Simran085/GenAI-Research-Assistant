@@ -1,6 +1,6 @@
 # Smart Assistant for Research Summarization
 An AI-powered research document assistant (PDF/TXT) with:
--**Auto summary** (≤150 words)
+***Auto summary** (≤150 words)
 -**Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
 -**Challenge Me** (auto-generated comprehension questions with feedback)
 -**Attractive, user-friendly Streamlit UI**
@@ -18,23 +18,31 @@ An AI-powered research document assistant (PDF/TXT) with:
 ## 🛠️ **Setup Instructions**
 ### 1. Clone the Repo and Prepare the Environment
 ```bash
-   -git clone https://github.com/Simran085/GenAI-Research-Assistant
-   -cd <your-project-folder>
-   -python -m venv venv
+   git clone https://github.com/Simran085/GenAI-Research-Assistant
+   cd <your-project-folder>
+   python -m venv venv
    source venv/bin/activate  # (venv\Scripts\activate on Windows)
-
-3. Install Required Packages
-   -pip install -r requirements.txt
-4. Get a Groq API Key
-   -Sign up (free) at https://groq.com/
-   -Go to the dashboard → API Keys → “Create API Key”
-   -Copy your key (gsk_...) 
-5. Create a .env File
+```
+### 2. Install Required Packages
+```bash
+   pip install -r requirements.txt
+```
+### 3. Get a Groq API Key
+```bash
+   Sign up (free) at https://groq.com/
+   Go to the dashboard → API Keys → “Create API Key”
+   Copy your key (gsk_...)
+```
+### 4. Create a .env File
+```bash
    In the project root:
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
-6. Run the App
+```
+### 5. Run the App
+```bash
    streamlit run app.py
-   
+```
+
 ## 🖥️**App Architecture & Reasoning Flow**
 **1. Document Ingestion**
 -User uploads a PDF/TXT file.

@@ -14,8 +14,8 @@ An AI-powered research document assistant (PDF/TXT) with:
 -Upload research reports or papers in PDF or TXT.
 - Get a concise, document-grounded summary instantly.
 - Toggle between two modes:
-    -**Ask Anything**: Ask free-form questions; receive justified, cited, in-context answers. Conversation memory supports follow-ups.
-    -**Challenge Me**: Receive new, logic-based questions each time; answer and get evaluated with explanations.
+    - **Ask Anything**: Ask free-form questions; receive justified, cited, in-context answers. Conversation memory supports follow-ups.
+    - **Challenge Me**: Receive new, logic-based questions each time; answer and get evaluated with explanations.
 - All answers and feedback are cited to your uploaded content, no hallucination.
 - Chat history appears in the sidebar for context (no clutter).
 

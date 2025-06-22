@@ -54,27 +54,27 @@ In the project root:
 * Text is extracted, cleaned, and split into overlapping “chunks” for retrieval.
 
 **2. Vector Embedding & Indexing**
--Each chunk is embedded using a local SentenceTransformer model.
--A FAISS index is built for semantic retrieval (fast “search” for relevant text).
+- Each chunk is embedded using a local SentenceTransformer model.
+- A FAISS index is built for semantic retrieval (fast “search” for relevant text).
 
 **3. RAG Pipeline for Answers**
--User’s question is embedded and used to retrieve top-matching chunks.
--The app constructs a prompt: context chunks + (optionally) conversation history + the user’s question.
--This prompt is sent to **Groq’s Llama 3 API**, with instructions to answer only from the retrieved context, and cite the chunk or quote text.
--The answer and cited support are shown, with the supporting snippet highlighted.
+- User’s question is embedded and used to retrieve top-matching chunks.
+- The app constructs a prompt: context chunks + (optionally) conversation history + the user’s question.
+- This prompt is sent to **Groq’s Llama 3 API**, with instructions to answer only from the retrieved context, and cite the chunk or quote text.
+- The answer and cited support are shown, with the supporting snippet highlighted.
 
 **4. Conversation Memory**
--Recent Q&A pairs are stored in session.
--On follow-up questions, last 3 interactions are included in the LLM prompt so answers can refer to prior context.
+- Recent Q&A pairs are stored in session.
+- On follow-up questions, last 3 interactions are included in the LLM prompt so answers can refer to prior context.
 
 **5. Challenge Me Mode**
--“Generate New Questions” always gives a fresh set of 3 logic-based, context-grounded questions.
--User submits answers, receives auto-evaluation and document-based feedback.
+- “Generate New Questions” always gives a fresh set of 3 logic-based, context-grounded questions.
+- User submits answers, receives auto-evaluation and document-based feedback.
 
 **6. User Interface**
--Streamlit UI with sidebar navigation for Home/Summary, Ask Anything, and Challenge Me modes.
--All major interactions and chat history are cleanly separated.
--Supporting text is only shown on demand; no clutter.
+- Streamlit UI with sidebar navigation for Home/Summary, Ask Anything, and Challenge Me modes.
+- All major interactions and chat history are cleanly separated.
+- Supporting text is only shown on demand; no clutter.
 
 
 ## 🤝 **License & Credits**

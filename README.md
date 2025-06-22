@@ -50,8 +50,8 @@ In the project root:
 
 ## 🖥️**App Architecture & Reasoning Flow**
 **1. Document Ingestion**
--User uploads a **PDF/TXT** file.
--Text is extracted, cleaned, and split into overlapping “chunks” for retrieval.
+* User uploads a **PDF/TXT** file.
+* Text is extracted, cleaned, and split into overlapping “chunks” for retrieval.
 
 **2. Vector Embedding & Indexing**
 -Each chunk is embedded using a local SentenceTransformer model.
@@ -78,7 +78,7 @@ In the project root:
 
 
 ## 🤝 **License & Credits**
--Built with ❤️ **Streamlit**, **Groq**, **LangChain**, **FAISS**, and **SentenceTransformers**.
--For research and educational use.
+- Built with ❤️ **Streamlit**, **Groq**, **LangChain**, **FAISS**, and **SentenceTransformers**.
+- For research and educational use.
 
 **Enjoy your Smart Assistant for Research Summarization!**

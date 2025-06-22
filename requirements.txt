@@ -1,0 +1,7 @@
+streamlit
+nltk
+pymupdf
+sentence-transformers
+faiss-cpu
+langchain_groq
+python-dotenv

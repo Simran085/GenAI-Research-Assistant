@@ -78,7 +78,7 @@ In the project root:
 
 
 ## 🤝 **License & Credits**
-- Built with ❤️ **Streamlit**, **Groq**, **LangChain**, **FAISS**, and **SentenceTransformers**.
+- Built with ❤️ using **Streamlit**, **Groq**, **LangChain**, **FAISS**, and **SentenceTransformers**.
 - For research and educational use.
 
 **Enjoy your Smart Assistant for Research Summarization!**

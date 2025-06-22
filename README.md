@@ -1,10 +1,14 @@
 # Smart Assistant for Research Summarization
+
 An AI-powered research document assistant (PDF/TXT) with:
-***Auto summary** (≤150 words)
--**Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
--**Challenge Me** (auto-generated comprehension questions with feedback)
--**Attractive, user-friendly Streamlit UI**
--Powered by **Groq’s Llama 3** for blazing fast, accurate answers.
+
+- Auto summary** (≤150 words)
+- **Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
+- **Challenge Me** (auto-generated comprehension questions with feedback)
+- Attractive, user-friendly Streamlit UI
+- Powered by **Groq’s Llama 3** for blazing fast, accurate answers.
+
+---
 
 ## 🚀 **Features**
 -Upload research reports or papers in PDF or TXT.
@@ -14,6 +18,8 @@ An AI-powered research document assistant (PDF/TXT) with:
     -**Challenge Me**: Receive new, logic-based questions each time; answer and get evaluated with explanations.
 - All answers and feedback are cited to your uploaded content, no hallucination.
 - Chat history appears in the sidebar for context (no clutter).
+
+---
 
 ## 🛠️ **Setup Instructions**
 ### 1. Clone the Repo and Prepare the Environment
@@ -28,14 +34,13 @@ An AI-powered research document assistant (PDF/TXT) with:
    pip install -r requirements.txt
 ```
 ### 3. Get a Groq API Key
-```bash
-   Sign up (free) at https://groq.com/
-   Go to the dashboard → API Keys → “Create API Key”
-   Copy your key (gsk_...)
-```
+   -Sign up (free) at [groq] (https://groq.com/)
+   -Go to the dashboard → API Keys → “Create API Key”
+   -Copy your key (gsk_...)
+
 ### 4. Create a .env File
+In the project root:
 ```bash
-   In the project root:
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 5. Run the App
@@ -45,7 +50,7 @@ An AI-powered research document assistant (PDF/TXT) with:
 
 ## 🖥️**App Architecture & Reasoning Flow**
 **1. Document Ingestion**
--User uploads a PDF/TXT file.
+-User uploads a **PDF/TXT** file.
 -Text is extracted, cleaned, and split into overlapping “chunks” for retrieval.
 
 **2. Vector Embedding & Indexing**
@@ -55,7 +60,7 @@ An AI-powered research document assistant (PDF/TXT) with:
 **3. RAG Pipeline for Answers**
 -User’s question is embedded and used to retrieve top-matching chunks.
 -The app constructs a prompt: context chunks + (optionally) conversation history + the user’s question.
--This prompt is sent to Groq’s Llama 3 API, with instructions to answer only from the retrieved context, and cite the chunk or quote text.
+-This prompt is sent to **Groq’s Llama 3 API**, with instructions to answer only from the retrieved context, and cite the chunk or quote text.
 -The answer and cited support are shown, with the supporting snippet highlighted.
 
 **4. Conversation Memory**
@@ -73,7 +78,7 @@ An AI-powered research document assistant (PDF/TXT) with:
 
 
 ## 🤝 **License & Credits**
--Built with ❤️ Streamlit, Groq, LangChain, FAISS, and SentenceTransformers.
+-Built with ❤️ **Streamlit**, **Groq**, **LangChain**, **FAISS**, and **SentenceTransformers**.
 -For research and educational use.
 
 **Enjoy your Smart Assistant for Research Summarization!**

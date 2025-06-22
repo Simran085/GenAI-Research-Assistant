@@ -16,21 +16,23 @@ An AI-powered research document assistant (PDF/TXT) with:
 - Chat history appears in the sidebar for context (no clutter).
 
 ## 🛠️ **Setup Instructions**
-1. Clone the Repo and Prepare the Environment
+### 1. Clone the Repo and Prepare the Environment
+```bash
    -git clone https://github.com/Simran085/GenAI-Research-Assistant
    -cd <your-project-folder>
    -python -m venv venv
    source venv/bin/activate  # (venv\Scripts\activate on Windows)
-2. Install Required Packages
+
+3. Install Required Packages
    -pip install -r requirements.txt
-3. Get a Groq API Key
+4. Get a Groq API Key
    -Sign up (free) at https://groq.com/
    -Go to the dashboard → API Keys → “Create API Key”
    -Copy your key (gsk_...) 
-4. Create a .env File
+5. Create a .env File
    In the project root:
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
-5. Run the App
+6. Run the App
    streamlit run app.py
    
 ## 🖥️**App Architecture & Reasoning Flow**

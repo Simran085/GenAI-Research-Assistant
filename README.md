@@ -2,7 +2,7 @@
 
 An AI-powered research document assistant (PDF/TXT) with:
 
-- Auto summary** (≤150 words)
+- Auto summary (≤150 words)
 - **Ask Anything**(RAG Q&A grounded in your doc, with citation and memory)
 - **Challenge Me** (auto-generated comprehension questions with feedback)
 - Attractive, user-friendly Streamlit UI
@@ -34,7 +34,7 @@ An AI-powered research document assistant (PDF/TXT) with:
    pip install -r requirements.txt
 ```
 ### 3. Get a Groq API Key
-   -Sign up (free) at [groq] (https://groq.com/)
+   -Sign up (free) at [groq](https://groq.com/)
    -Go to the dashboard → API Keys → “Create API Key”
    -Copy your key (gsk_...)
 

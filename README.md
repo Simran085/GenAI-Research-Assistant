@@ -28,6 +28,7 @@ An AI-powered research document assistant (PDF/TXT) with:
    cd <your-project-folder>
    python -m venv venv
 
+Choose one of the following depending on your OS:
    source venv/Scripts/activate  # Windows Git Bash
    venv\Scripts\activate         # Windows CMD
    source venv/bin/activate      # Mac/Linux

@@ -27,7 +27,10 @@ An AI-powered research document assistant (PDF/TXT) with:
    git clone https://github.com/Simran085/GenAI-Research-Assistant
    cd <your-project-folder>
    python -m venv venv
-   source venv/bin/activate  # (venv\Scripts\activate on Windows)
+
+   source venv/Scripts/activate  # Windows Git Bash
+   venv\Scripts\activate         # Windows CMD
+   source venv/bin/activate      # Mac/Linux
 ```
 ### 2. Install Required Packages
 ```bash
@@ -39,11 +42,16 @@ An AI-powered research document assistant (PDF/TXT) with:
    -Copy your key (gsk_...)
 
 ### 4. Create a .env File
-In the project root:
+In the project root directory (same location as app.py), create a file named .env and paste:
 ```bash
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 5. Run the App
+-Windows CMD or Git Bash:
+```bash
+   venv\Scripts\python -m streamlit run app.py
+```
+-Mac/Linux:
 ```bash
    streamlit run app.py
 ```

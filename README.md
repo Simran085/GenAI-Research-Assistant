@@ -11,7 +11,7 @@ An AI-powered research document assistant (PDF/TXT) with:
 ---
 
 ## 🚀 **Features**
--Upload research reports or papers in PDF or TXT.
+- Upload research reports or papers in PDF or TXT.
 - Get a concise, document-grounded summary instantly.
 - Toggle between two modes:
     - **Ask Anything**: Ask free-form questions; receive justified, cited, in-context answers. Conversation memory supports follow-ups.
@@ -48,11 +48,11 @@ In the project root directory (same location as app.py), create a file named .en
    GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 5. Run the App
--Windows CMD or Git Bash:
+- Windows CMD or Git Bash:
 ```bash
    venv\Scripts\python -m streamlit run app.py
 ```
--Mac/Linux:
+- Mac/Linux:
 ```bash
    streamlit run app.py
 ```

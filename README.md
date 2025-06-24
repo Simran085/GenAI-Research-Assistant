@@ -38,9 +38,9 @@ Choose one of the following depending on your OS:
    pip install -r requirements.txt
 ```
 ### 3. Get a Groq API Key
-   -Sign up (free) at [groq](https://groq.com/)
-   -Go to the dashboard → API Keys → “Create API Key”
-   -Copy your key (gsk_...)
+   - Sign up (free) at [groq](https://groq.com/)
+   - Go to the dashboard → API Keys → “Create API Key”
+   - Copy your key (gsk_...)
 
 ### 4. Create a .env File
 In the project root directory (same location as app.py), create a file named .env and paste:

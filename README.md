@@ -1,4 +1,4 @@
-# Smart Assistant for Research Summarization
+# ResearchAI Assistant
 
 An AI-powered research document assistant (PDF/TXT) with:
 
